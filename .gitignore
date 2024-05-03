@@ -1,3 +1,19 @@
+examples/output/
+.vntrader/ctp
+.vntrader/ctptest
+~*.docx
+*.tmp
+*.db
+.DS_Store
+capital.png
+
+# IDE
+.idea
+*log
+*.csv
+
+*.out
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -73,7 +89,8 @@ docs/_build/
 
 # PyBuilder
 target/
-
+wandb/
+mlruns/
 # Jupyter Notebook
 .ipynb_checkpoints
 
